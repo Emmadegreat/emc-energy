@@ -1181,7 +1181,7 @@
         position: fixed;
         width: 100%;
         top: 0;
-        height: 100vh;
+        height: 100%;
         z-index: 3;
         left: -100%;
         align-items: flex-start;
@@ -1262,12 +1262,10 @@
         line-height: 40px;
         letter-spacing: -0.24%;
     }
-
-    .article2{
+    #hero-card1 .article2{
         display: block;
         width: 100%;
     }
-
 
     .hero-card p{
         /* font-size: 20px; */
@@ -1559,5 +1557,79 @@
         width: 100%;
         font-weight: 400;
     }
+
+    /*========footer-section===========*/
+    .footer {
+        height: 160px;
+    }
+
+    .footer-image {
+        position: absolute;
+        max-height: 160px;
+        max-width: 120px;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .left-image1{
+        max-width: 60px;
+        max-height: 60px;
+        width: 100%;
+        left: 10px;
+        top: 45%;
+    }
+
+    .left-image {
+        top: 50%;
+        height: 160px;
+        left: 30px;
+        transform: translateY(-50%);
+    }
+
+    .right-image {
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+
+    .footer-content {
+        position: relative;
+        z-index: 2;
+        left: 30px;
+        top: 10px;
+    }
+
+    .footer-content h2 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 4px;
+    }
+
+    .footer-content p {
+        margin: 0 0 12px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .footer-phone {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        color: #FFCA00;
+        padding-left: 5px;
+        margin-bottom: 16px;
+        text-decoration: none;
+    }
+
+    .footer-copyright {
+        margin-top: 16px;
+        font-size: 12px;
+        color: #fff;
+        line-height: 16px;
+        opacity: 0.8;
+    }
+
 
 }
