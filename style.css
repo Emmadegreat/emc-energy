@@ -1254,7 +1254,7 @@
         width: 100%;
     }
 
-    .hero-card h1{
+    #hero-card h1{
         font-size: 34px;
         color: #fff;
         font-weight: 500;
