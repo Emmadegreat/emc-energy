@@ -1261,6 +1261,7 @@
         width: 100%;
         line-height: 40px;
         letter-spacing: -0.24%;
+        display: none;
     }
     #hero-card1 .article2{
         display: block;
