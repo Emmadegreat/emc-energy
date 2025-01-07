@@ -8,3 +8,5 @@ const closeMobileMenu=()=> {
     holder = document.getElementById("holder");
     holder.classList.remove("active");
 }
+
+document.getElementById("date").innerHTML = new Date().getFullYear();

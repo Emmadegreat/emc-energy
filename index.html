@@ -16,26 +16,24 @@
 
         </div>
         <header class="wrapper">
-            <a href="index.html"><img class="logo" src="./images/EMC Energy logo.png" alt="EMC Energy logo"></a>
+            <a href="index.html">
+                <img class="logo" src="./images/EMC Energy logo.png" alt="EMC Energy logo">
+            </a>
 
-            <!-- <div class="navbar"> -->
+            <ul class="holder" id="holder">
 
-                <ul class="holder" id="holder">
-
-                    <div class="mobile-toggle">
-                        <div class="mobile-logo">
-                            <a href="index.html"><img class="logo" src="./images/EMC Energy logo.png" alt="EMC Energy logo"></a>
-                        </div>
-                        <div class="mobile-close-icon" onclick="closeMobileMenu()">&#x2715; </div>
+                <div class="mobile-toggle">
+                    <div class="mobile-logo">
+                        <a href="index.html"><img class="logo" src="./images/EMC Energy logo.png" alt="EMC Energy logo"></a>
                     </div>
+                    <div class="mobile-close-icon" onclick="closeMobileMenu()">&#x2715; </div>
+                </div>
 
-                    <li><a href="#offer" class="link" onclick="closeMobileMenu()">Services</a></li>
-                    <li><a href="#work" class="link" onclick="closeMobileMenu()">Our work</a></li>
-                    <li><a href="#testimonial" class="link" onclick="closeMobileMenu()">Testimonials</a></li>
-                    <a href="#contact-us" class="link" id="contact-link">Contact Us</a>
-                </ul>
-
-            <!-- </div> -->
+                <li><a href="#offer" class="link" onclick="closeMobileMenu()">Services</a></li>
+                <li><a href="#work" class="link" onclick="closeMobileMenu()">Our work</a></li>
+                <li><a href="#testimonial" class="link" onclick="closeMobileMenu()">Testimonials</a></li>
+                <a href="#contact-us" class="link" id="contact-link">Contact Us</a>
+            </ul>
 
             <div class="hamburger" id="hamburger" onclick="openMobileMenu()">&#9776; </div>
 
@@ -47,14 +45,18 @@
         <div class="hero-content">
             <div class="hero-card" id="hero-card1">
                 <h1>Just power, no stories</h1>
-                <article>
+                <!-- <h1>Just power, no<br> stories</h1> -->
+                <!-- <article class="article1">
                     <p>We provide efficient solar power systems and advanced </p>
                     <p>inverters to help you save money, and your home.</p>
-                </article>
+                </article> -->
 
                 <article class="article2">
-                    <p>We provide efficient solar power systems and advanced
-                    inverters to help you save money, and your home.</p>
+                    <p>
+                        EMC Energy is a leading provider of comprehensive solar and
+                        inverter solutions, delivering reliable and cost-effective power
+                        across Nigeria
+                    </p>
                 </article>
 
                 <button>
@@ -72,23 +74,69 @@
 
     <main>
         <!---service section--->
+
         <section class="service-section">
-            <img src="./images/star-img.png" alt="star image" class="star-img">
             <div class="service-wrapper">
 
-                <div class="service-card">
-                    <img src="./images/solar-panel2.png" alt="solar- panel" class="solar-panel">
+                <div class="service-card" id="service-card1">
+                    <img src="./images/starimg2.png" alt="star image" class="star-img">
+                    <img src="./images/star-img-tablet2.png" alt="star image" class="star-img-tab">
+                    <img src="./images/star-img-mobile.png" alt="star image" class="star-img-mobile">
                 </div>
 
                 <div class="service-card" id="service-card2">
                     <div class="header-wrapper">
-                        <h2>Energise Society Using </h2>
-                        <h2>Sustainable & Reliable</h2>
-                        <h2>Energy</h2>
+                        <h2>Affordable power for your home and business</h2>
+                    </div>
+                    <!-- <div class="header-wrapper1">
+                        <h2>Affordable power for your</h2>
+                        <h2>home and business</h2>
+                    </div> -->
+                    <div class="rating-wrapper">
+
+                            <div class="rating-card">
+                                <div class="inner-rating">
+                                    <img src="./images/circle.png" alt="">
+                                    <b>30&#43;</b>
+                                </div>
+                                <p id="inner-rating-text">Projects Completed <br> In Last 1 Year</p>
+                            </div>
+
+
+                            <div class="rating-card" id="rating-card2">
+                                <div class="inner-rating">
+                                    <img src="./images/circle.png" alt="">
+                                    <b>45+</b>
+                                </div>
+                                <p id="inner-rating-text">Happy customers <br> who trusted us</p>
+                            </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--<section class="service-section">
+            <!-- <img src="./images/star-img.png" alt="star image" class="star-img"> --
+            <img src="./images/starimg2.png" alt="star image" class="star-img">
+            <div class="service-wrapper">
+
+                <!--<div class="service-card">
+                    <-- <img src="./images/solar-panel2.png" alt="solar- panel" class="solar-panel">
+                </div>--
+
+                <div class="service-card" id="service-card2">
+                    <div class="header-wrapper">
+                        <h2>Affordable power for</h2>
+                        <h2>your home and</h2>
+                        <h2>business</h2>
                     </div>
                     <div class="header-wrapper1">
-                        <h2>Energise Society Using </h2>
-                        <h2>Sustainable & Reliable Energy</h2>
+                        <h2>Affordable power for your</h2>
+                        <h2>home and business</h2>
                     </div>
                     <div class="rating-wrapper">
                         <div class="rating-container">
@@ -118,7 +166,7 @@
 
             </div>
 
-        </section>
+        </section>-->
 
 
         <!----quality section-->
@@ -191,7 +239,8 @@
             </div>
 
             <div class="offer-card" id="offer-card2">
-                <img src="./images/offer-image.png" alt="">
+                <img src="./images/offer-image.png" alt="solar panel" class="offer-img1">
+                <img src="./images/offer-img-tab.png" alt="solar panel" class="offer-img2">
             </div>
         </section>
 
@@ -255,19 +304,31 @@
                     </div>
 
                 </div>
-                <div class="testimonial-card">
-                    <img src="./images/testimonial-solar-panel.png" alt="solar panel engineers" class="testimonial-panel">
+                <div class="testimonial-card testimonial-card2">
+                    <img src="./images/testimonial-solar-panel.png" alt="solar panel engineers" class="solar-installer">
+                    <img src="./images/solar-installer-tab.png" alt="solar panel" class="solar-installer-tab">
                 </div>
             </div>
         </section>
 
     </main>
 
-    <footer>
-        <div class="footer-wrapper" id="contact-us">
-            <img src="./images/footer-img.png" alt="footer star image" class="footer-img">
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <img src="./images/footer-circular-img.png" alt="footer left side shape" class="footer-image left-image1"/>
+            <img src="./images/footer-img2.png" alt="footer left side shape" class="footer-image left-image"/>
+            <div class="footer-content">
+                <h2>Contact Us</h2>
+                <p>For enquiries call or message us on</p>
+                <a href="tel:+2348093895270" class="footer-phone">+2348093895270</a>
+                <div class="footer-copyright">
+                   <p> <span class="copyright-icon">&copy;</span><span id="date"></span> EMC Energy. All rights reserved.</p>
+                </div>
+            </div>
+            <img src="./images/footer-img.png" alt="footer right side shape" class="footer-image right-image" />
         </div>
     </footer>
+
     <script src="./index.js"></script>
 </body>
 </html>
