@@ -743,11 +743,13 @@ footer{
     padding-bottom: 30px;
 }
 
-.legal-card p{
+.legal-card a{
     width: 174px;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
+    color: #6B6B6B;
+    text-decoration: none;
 }
 
 
