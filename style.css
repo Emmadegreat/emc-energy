@@ -844,6 +844,10 @@ footer{
     font-size: 16px;
 }
 
+.footer-card ul li a:hover{
+    color: #F9BC07;
+}
+
 .legal{
     padding-bottom: 30px;
 }
@@ -1420,6 +1424,10 @@ footer{
        font-weight: 400;
        font-size: 16px;
        color: #454545;
+    }
+
+    .holder li a:hover{
+        color: #F9BC07;
     }
 
     .holder #contact-link{
