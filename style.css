@@ -557,6 +557,7 @@
 .testimonial-section {
   text-align: center;
   padding: 40px 60px;
+  background-color: #FFFEE7;
 }
 
 .testimonial-section h2{
@@ -583,8 +584,7 @@
 .testimonial-card {
   flex: 100%;
   /* padding: 20px; */
-  background: #fff;
-  display: flex;
+    display: flex;
   flex-basis: 47%;
   justify-content: space-between;
   /* margin: 10px; */
@@ -592,7 +592,7 @@
 }
 
 .testimonial-card1{
-    padding-right: 30px;
+    padding-right: 200px;
 }
 
 .testimonial-inner-card{
@@ -966,6 +966,9 @@ footer{
         text-decoration: none;
     }
 
+    .testimonial-card1{
+        padding-right: 60px;
+    }
 
 }
 
@@ -1279,6 +1282,10 @@ footer{
         width: 100%;
         font-weight: 400;
         padding-top: 10px;
+    }
+
+    .testimonial-card1{
+        padding-right: 0px;
     }
 
     .user-wrapper{
