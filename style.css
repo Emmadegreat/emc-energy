@@ -1767,7 +1767,12 @@ footer{
         margin-top: 10px;
     }
     .work-card{
-        margin-bottom: 20px;
+        
+    }
+
+    .work-card2{
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 
     /*============testimonial-wrapper=======*/
