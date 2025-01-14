@@ -515,6 +515,26 @@
     height: auto;
 }
 
+.work-text{
+    height: 54px;
+    margin-top: 12px;
+    gap: 20px;
+}
+
+.work-text h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 5px;
+}
+
+.work-text p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #4C4C4CE5;
+}
+
 
 /*===============testimonial-section========*/
 
