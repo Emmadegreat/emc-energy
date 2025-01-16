@@ -466,7 +466,19 @@
 }
 
 .supply-text-one{
+    
+}
+
+.supply-card3 ul{
     margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.supply-card3 ul li{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #6B6B6B;
 }
 
 .supply-card3 p{
@@ -478,6 +490,10 @@
 .globe-img{
     max-width: 450px;
     height: auto;
+}
+
+.supply-text2{
+    margin-top: -16px;
 }
 
 /*==========work-section===========*/
@@ -515,12 +531,33 @@
     height: auto;
 }
 
+.work-text{
+    height: 54px;
+    margin-top: 12px;
+    gap: 20px;
+}
+
+.work-text h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 5px;
+}
+
+.work-text p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #4C4C4CE5;
+}
+
 
 /*===============testimonial-section========*/
 
 .testimonial-section {
   text-align: center;
   padding: 40px 60px;
+  background-color: #FFFEE7;
 }
 
 .testimonial-section h2{
@@ -547,8 +584,7 @@
 .testimonial-card {
   flex: 100%;
   /* padding: 20px; */
-  background: #fff;
-  display: flex;
+    display: flex;
   flex-basis: 47%;
   justify-content: space-between;
   /* margin: 10px; */
@@ -556,7 +592,7 @@
 }
 
 .testimonial-card1{
-    padding-right: 30px;
+    padding-right: 200px;
 }
 
 .testimonial-inner-card{
@@ -930,6 +966,9 @@ footer{
         text-decoration: none;
     }
 
+    .testimonial-card1{
+        padding-right: 60px;
+    }
 
 }
 
@@ -1244,6 +1283,10 @@ footer{
         width: 100%;
         font-weight: 400;
         padding-top: 10px;
+    }
+
+    .testimonial-card1{
+        padding-right: 0px;
     }
 
     .user-wrapper{
@@ -1725,7 +1768,12 @@ footer{
         margin-top: 10px;
     }
     .work-card{
-        margin-bottom: 20px;
+        
+    }
+
+    .work-card2{
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 
     /*============testimonial-wrapper=======*/
