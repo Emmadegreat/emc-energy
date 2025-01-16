@@ -524,12 +524,12 @@
 }
 
 .testimonial-section h2{
-     font-size: 48px;
+    font-size: 48px;
     color: #000000;
     line-height: 58px;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 .testimonial-carousel {
@@ -1223,6 +1223,7 @@ footer{
     .testimonial-section h2{
         font-size: 38px;
         line-height: 48px;
+        margin-bottom: 42px;
         color: #262626;
     }
 
@@ -1735,7 +1736,7 @@ footer{
     .testimonial-section h2{
         font-size: 32px;
         line-height: 42px;
-        margin-bottom: 0px;
+        margin-bottom: 24px;
         text-align: start;
         font-weight: 600;
     }
