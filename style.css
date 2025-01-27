@@ -846,16 +846,24 @@ footer{
     line-height: 21px;
     margin-top: 20px;
 }
-
-.copyright{
+.copyright-mobile{
     margin-top: 60px;
+    display: none;
 }
 
-.footer-copyright {
+
+
+.copyright-desk-top{
+    margin-top: 60px;
+    display: block;
+    margin-bottom: 159px;
+}
+
+/* .footer-copyright {
     width: 258px;
     font-size: 14px;
     line-height: 24px;
-}
+} */
 
 .copyright-icon{
     font-size: 20px !important;
@@ -1896,6 +1904,16 @@ footer{
     .footer-wrapper{
         flex-direction: column;
         gap: 30px;
+    }
+
+    .copyright-desk-top{
+        display: none;
+    }
+
+    .copyright-mobile{
+        margin-top: 16px;
+        display: block;
+        margin-bottom: 100px;
     }
 
 
