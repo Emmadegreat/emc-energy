@@ -531,6 +531,9 @@
     height: auto;
 }
 
+.solar-battery1{
+    border-radius: 8px;
+}
 .work-text{
     height: 54px;
     margin-top: 12px;
